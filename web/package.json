@@ -12,8 +12,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.177",
+    "axios": "^0.24.0",
+    "lodash": "^4.17.21",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-use": "^17.3.1"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
