@@ -3,4 +3,6 @@ import { Order } from './order';
 
 export interface OrderRepository {
   allOrdersOfParty(userId: UserId): Promise<Order[]>;
+
+  save(order: Order): void;
 }
