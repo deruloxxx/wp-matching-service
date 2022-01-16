@@ -1,3 +1,1 @@
-export class UserId {
-  constructor(readonly id: string) {}
-}
+export class User {}

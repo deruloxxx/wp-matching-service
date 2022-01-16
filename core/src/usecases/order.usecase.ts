@@ -1,7 +1,7 @@
 import { RequestOrderCommand } from './requestOrderCommand';
 import { OrderRepository } from '../models/order/orderRepository';
 import { Order } from '../models/order/order';
-import { UserId } from '../models/user/user';
+import { UserId } from '../models/user/userId';
 
 export class OrderUsecase {
   constructor(private readonly orderRepository: OrderRepository) {}

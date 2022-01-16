@@ -1,12 +1,12 @@
 import { OrderUsecase } from '../usecases/order.usecase';
 import { Body, Controller, Get, Post } from '@nestjs/common';
 import { Order } from '../models/order/order';
-import { UserId } from '../models/user/user';
 import { OrderRepository } from '../models/order/orderRepository';
 import { LoggingUser } from './decorators/loginUser/loggingUser';
 import { LoginUser } from './decorators/loginUser/loginUser';
 import { RequestOrderDto } from './dto/requestOrderDto';
 import { RequestOrderCommand } from '../usecases/requestOrderCommand';
+import { UserId } from '../models/user/userId';
 
 @Controller('orders')
 export class OrderController {
