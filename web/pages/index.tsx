@@ -1,8 +1,13 @@
-import {Contact} from "../components/organisms/form/contact/Contact";
+import {Contact} from "../components/organisms/Form/contact/Contact";
+import {IntroduceService} from "../components/organisms/IntroduceService/IntroduceService";
 
 const Index = () => {
   return (
-    <Contact/>
+    <>
+      <IntroduceService/>
+      <Contact/>
+    </>
+
   )
 }
 
