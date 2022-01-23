@@ -4,4 +4,5 @@ export class NotificationUsecase {
   receive(notification: Notification) {}
   approve(notification: Notification) {}
   deny(notification: Notification) {}
+  receiveContract(notification: Notification) {}
 }
