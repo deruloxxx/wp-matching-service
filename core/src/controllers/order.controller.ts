@@ -1,4 +1,4 @@
-import { OrderUsecase } from '../usecases/order.usecase';
+import { OrderUsecase } from '../usecases/order/order.usecase';
 import { Body, Controller, Get, Post } from '@nestjs/common';
 import { Order } from '../models/order/order';
 import { OrderRepository } from '../models/order/orderRepository';
