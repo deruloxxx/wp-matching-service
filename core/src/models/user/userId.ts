@@ -1,3 +1,7 @@
 export class UserId {
-  constructor(readonly id: string) {}
+  constructor(private readonly id: string) {}
+
+  isSame(id: UserId) {
+    return id.id === this.id;
+  }
 }
