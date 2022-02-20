@@ -1,9 +1,9 @@
 import {Login} from "../../components/organisms/Form/Login/Login";
 
-const Handle = () => {
+const Index = () => {
   return (
     <Login/>
   );
 };
 
-export default Handle
+export default Index
