@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export const Hero = () => {
   return (
@@ -23,18 +23,6 @@ export const Hero = () => {
               <div
                 className="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
                 <div>
-                  <a href="#"
-                     className="inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
-                      <span
-                        className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full">We're hiring</span>
-                    <span className="ml-4 text-sm">Visit our careers page</span>
-                    <svg className="ml-2 w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                         fill="currentColor" aria-hidden="true">
-                      <path fillRule="evenodd"
-                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                            clipRule="evenodd"/>
-                    </svg>
-                  </a>
                   <h1
                     className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
                     <span className="md:block">Data to enrich your</span>
@@ -44,38 +32,6 @@ export const Hero = () => {
                     Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit
                     sunt amet fugiat veniam occaecat fugiat aliqua ad ad non deserunt sunt.
                   </p>
-                  <p className="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10">Used by</p>
-                  <div className="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
-                    <div className="flex flex-wrap items-start justify-between">
-                      <div className="flex justify-center px-1">
-                        <Image
-                          className="h-9 sm:h-10"
-                          src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-                          alt="Tuple"
-                          width={150}
-                          height={150}
-                        />
-                      </div>
-                      <div className="flex justify-center px-1">
-                        <Image
-                          className="h-9 sm:h-10"
-                          src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
-                          alt="Workcation"
-                          width={150}
-                          height={150}
-                        />
-                      </div>
-                      <div className="flex justify-center px-1">
-                        <Image
-                          className="h-9 sm:h-10"
-                          src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-                          alt="StaticKit"
-                          height={150}
-                          width={150}
-                        />
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
               <div className="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
@@ -123,56 +79,10 @@ export const Hero = () => {
                         </div>
                       </div>
                     </div>
-
-                    <div className="mt-6 relative">
-                      <div className="absolute inset-0 flex items-center" aria-hidden="true">
-                        <div className="w-full border-t border-gray-300"></div>
-                      </div>
-                      <div className="relative flex justify-center text-sm">
-                    <span className="px-2 bg-white text-gray-500">
-                      Or
-                    </span>
-                      </div>
-                    </div>
-
-                    <div className="mt-6">
-                      <form action="#" method="POST" className="space-y-6">
-                        <div>
-                          <label htmlFor="name" className="sr-only">Full name</label>
-                          <input type="text" name="name" id="name" autoComplete="name" placeholder="Full name"
-                                 required
-                                 className="block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md" />
-                        </div>
-
-                        <div>
-                          <label htmlFor="mobile-or-email" className="sr-only">Mobile number or email</label>
-                          <input type="text" name="mobile-or-email" id="mobile-or-email" autoComplete="email"
-                                 placeholder="Mobile number or email" required
-                                 className="block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md" />
-                        </div>
-
-                        <div>
-                          <label htmlFor="password" className="sr-only">Password</label>
-                          <input id="password" name="password" type="password" placeholder="Password"
-                                 autoComplete="current-password" required
-                                 className="block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md" />
-                        </div>
-
-                        <div>
-                          <button type="submit"
-                                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                            Create your account
-                          </button>
-                        </div>
-                      </form>
-                    </div>
                   </div>
                   <div className="px-4 py-6 bg-gray-50 border-t-2 border-gray-200 sm:px-10">
-                    <p className="text-xs leading-5 text-gray-500">By signing up, you agree to our <a href="#"
-                                                                                                      className="font-medium text-gray-900 hover:underline">Terms</a>, <a
-                      href="#" className="font-medium text-gray-900 hover:underline">Data Policy</a> and <a href="#"
-                                                                                                            className="font-medium text-gray-900 hover:underline">Cookies
-                      Policy</a>.</p>
+                    <p className="text-xs leading-5 text-gray-500">By signing up, you agree to our
+                      <a href="#" className="font-medium text-gray-900 hover:underline">Private Policy</a>.</p>
                   </div>
                 </div>
               </div>

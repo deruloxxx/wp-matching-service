@@ -11,8 +11,8 @@ export const Footer = () => {
               className="h-10"
               src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
               alt="Company name"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
             />
               <p className="text-gray-500 text-base">
                 Making the world a better place through constructing elegant hierarchies.

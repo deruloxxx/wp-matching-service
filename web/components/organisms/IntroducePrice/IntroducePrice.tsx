@@ -151,7 +151,7 @@ export const IntroducePrice = () => {
           </div>
         </div>
       </div>
-      <a href="#" className="mx-auto bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-3/6 py-3 px-6 border border-transparent rounded-md text-center font-medium">Monthly billing</a>
+      <a href="#" className="mx-auto bg-indigo-50 text-indigo-700 hover:bg-indigo-100 mt-8 block w-3/6 py-3 px-6 border border-transparent rounded-md text-center font-medium">Login</a>
     </div>
   );
 };

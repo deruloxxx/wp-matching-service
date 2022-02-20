@@ -16,7 +16,7 @@ export const Header = () => {
           <rect width="364" height="384" fill="url(#eab71dd9-9d7a-47bd-8044-256344ee00d0)"/>
         </svg>
       </div>
-      <div className="relative pt-6 pb-16 sm:pb-24">
+      <div className="relative pt-6">
         <div>
           <nav className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
                aria-label="Global">
@@ -28,8 +28,8 @@ export const Header = () => {
                     className="h-8 w-auto sm:h-10"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                     alt=""
-                    width={150}
-                    height={150}
+                    width={50}
+                    height={50}
                   />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
@@ -45,13 +45,11 @@ export const Header = () => {
                 </div>
               </div>
               <div className="hidden space-x-10 md:flex md:ml-10">
-                <a href="#" className="font-medium text-white hover:text-gray-300">Product</a>
+                <a href="#" className="font-medium text-white hover:text-gray-300">Price</a>
 
-                <a href="#" className="font-medium text-white hover:text-gray-300">Features</a>
+                <a href="#" className="font-medium text-white hover:text-gray-300">Concept</a>
 
-                <a href="#" className="font-medium text-white hover:text-gray-300">Marketplace</a>
-
-                <a href="#" className="font-medium text-white hover:text-gray-300">Company</a>
+                <a href="#" className="font-medium text-white hover:text-gray-300">Contact</a>
               </div>
             </div>
             <div className="hidden md:flex">
@@ -70,8 +68,8 @@ export const Header = () => {
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                     alt=""
-                    width={150}
-                    height={150}
+                    width={50}
+                    height={50}
                   />
                 </div>
                 <div className="-mr-2">
